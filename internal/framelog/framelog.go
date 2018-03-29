@@ -8,11 +8,11 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/lorawan"
 
-	"github.com/brocaar/loraserver/api/gw"
-	"github.com/brocaar/loraserver/internal/config"
-	"github.com/brocaar/loraserver/internal/models"
+	"github.com/Frankz/loraserver/api/gw"
+	"github.com/Frankz/loraserver/internal/config"
+	"github.com/Frankz/loraserver/internal/models"
 	"github.com/pkg/errors"
 )
 

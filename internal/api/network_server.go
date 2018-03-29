@@ -3,7 +3,7 @@ package api
 import (
 	"time"
 
-	"github.com/brocaar/loraserver/internal/gps"
+	"github.com/Frankz/loraserver/internal/gps"
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/jmoiron/sqlx"
@@ -13,17 +13,17 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/brocaar/loraserver/api/ns"
-	"github.com/brocaar/loraserver/internal/api/auth"
-	"github.com/brocaar/loraserver/internal/config"
-	"github.com/brocaar/loraserver/internal/downlink/data/classb"
-	proprietarydown "github.com/brocaar/loraserver/internal/downlink/proprietary"
-	"github.com/brocaar/loraserver/internal/framelog"
-	"github.com/brocaar/loraserver/internal/gateway"
-	"github.com/brocaar/loraserver/internal/storage"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/backend"
-	"github.com/brocaar/lorawan/band"
+	"github.com/Frankz/loraserver/api/ns"
+	"github.com/Frankz/loraserver/internal/api/auth"
+	"github.com/Frankz/loraserver/internal/config"
+	"github.com/Frankz/loraserver/internal/downlink/data/classb"
+	proprietarydown "github.com/Frankz/loraserver/internal/downlink/proprietary"
+	"github.com/Frankz/loraserver/internal/framelog"
+	"github.com/Frankz/loraserver/internal/gateway"
+	"github.com/Frankz/loraserver/internal/storage"
+	"github.com/Frankz/lorawan"
+	"github.com/Frankz/lorawan/backend"
+	"github.com/Frankz/lorawan/band"
 )
 
 var rfRegionMapping = map[band.Name]backend.RFRegion{

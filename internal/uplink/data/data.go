@@ -8,17 +8,17 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/loraserver/api/as"
-	"github.com/brocaar/loraserver/api/nc"
-	"github.com/brocaar/loraserver/internal/config"
-	datadown "github.com/brocaar/loraserver/internal/downlink/data"
-	"github.com/brocaar/loraserver/internal/downlink/data/classb"
-	"github.com/brocaar/loraserver/internal/framelog"
-	"github.com/brocaar/loraserver/internal/gateway"
-	"github.com/brocaar/loraserver/internal/maccommand"
-	"github.com/brocaar/loraserver/internal/models"
-	"github.com/brocaar/loraserver/internal/storage"
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/loraserver/api/as"
+	"github.com/Frankz/loraserver/api/nc"
+	"github.com/Frankz/loraserver/internal/config"
+	datadown "github.com/Frankz/loraserver/internal/downlink/data"
+	"github.com/Frankz/loraserver/internal/downlink/data/classb"
+	"github.com/Frankz/loraserver/internal/framelog"
+	"github.com/Frankz/loraserver/internal/gateway"
+	"github.com/Frankz/loraserver/internal/maccommand"
+	"github.com/Frankz/loraserver/internal/models"
+	"github.com/Frankz/loraserver/internal/storage"
+	"github.com/Frankz/lorawan"
 )
 
 var tasks = []func(*dataContext) error{

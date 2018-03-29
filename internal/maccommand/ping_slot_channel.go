@@ -6,8 +6,8 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/loraserver/internal/storage"
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/loraserver/internal/storage"
+	"github.com/Frankz/lorawan"
 )
 
 // RequestPingSlotChannel modifies the frequency and / or the data-rate

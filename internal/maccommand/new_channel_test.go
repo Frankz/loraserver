@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/brocaar/loraserver/internal/storage"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/band"
+	"github.com/Frankz/loraserver/internal/storage"
+	"github.com/Frankz/lorawan"
+	"github.com/Frankz/lorawan/band"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

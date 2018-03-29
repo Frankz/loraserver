@@ -7,9 +7,9 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/loraserver/internal/storage"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/band"
+	"github.com/Frankz/loraserver/internal/storage"
+	"github.com/Frankz/lorawan"
+	"github.com/Frankz/lorawan/band"
 )
 
 // RequestNewChannels creates or modifies the non-common bi-directional

@@ -4,16 +4,16 @@ import (
 	"context"
 	"time"
 
-	"github.com/brocaar/loraserver/internal/gps"
+	"github.com/Frankz/loraserver/internal/gps"
 
-	"github.com/brocaar/loraserver/api/as"
-	"github.com/brocaar/loraserver/internal/config"
+	"github.com/Frankz/loraserver/api/as"
+	"github.com/Frankz/loraserver/internal/config"
 
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/lorawan"
 )
 
 // DeviceQueueItem represents an item in the device queue (downlink).

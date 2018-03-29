@@ -9,14 +9,14 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/loraserver/internal/config"
-	joindown "github.com/brocaar/loraserver/internal/downlink/join"
-	"github.com/brocaar/loraserver/internal/framelog"
-	"github.com/brocaar/loraserver/internal/models"
-	"github.com/brocaar/loraserver/internal/storage"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/backend"
-	"github.com/brocaar/lorawan/band"
+	"github.com/Frankz/loraserver/internal/config"
+	joindown "github.com/Frankz/loraserver/internal/downlink/join"
+	"github.com/Frankz/loraserver/internal/framelog"
+	"github.com/Frankz/loraserver/internal/models"
+	"github.com/Frankz/loraserver/internal/storage"
+	"github.com/Frankz/lorawan"
+	"github.com/Frankz/lorawan/backend"
+	"github.com/Frankz/lorawan/band"
 )
 
 var tasks = []func(*context) error{

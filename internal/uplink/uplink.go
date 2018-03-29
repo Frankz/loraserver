@@ -6,14 +6,14 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/loraserver/api/gw"
-	"github.com/brocaar/loraserver/internal/config"
-	"github.com/brocaar/loraserver/internal/framelog"
-	"github.com/brocaar/loraserver/internal/models"
-	"github.com/brocaar/loraserver/internal/uplink/data"
-	"github.com/brocaar/loraserver/internal/uplink/join"
-	"github.com/brocaar/loraserver/internal/uplink/proprietary"
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/loraserver/api/gw"
+	"github.com/Frankz/loraserver/internal/config"
+	"github.com/Frankz/loraserver/internal/framelog"
+	"github.com/Frankz/loraserver/internal/models"
+	"github.com/Frankz/loraserver/internal/uplink/data"
+	"github.com/Frankz/loraserver/internal/uplink/join"
+	"github.com/Frankz/loraserver/internal/uplink/proprietary"
+	"github.com/Frankz/lorawan"
 )
 
 // Server represents a server listening for uplink packets.
